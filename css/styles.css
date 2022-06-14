@@ -83,14 +83,47 @@ body {
     /* FEED */
     
     .feed {
+
         display: flex;
         align-items: center;
         height: 250px;
         width: 400px;
         overflow-x: scroll;
         overscroll-behavior-inline: contain;
-    
     }
+    
+
+    .Prato {
+
+        display: flex;
+        align-items: center;
+        height: 250px;
+        width: 400px;
+        overflow-x: scroll;
+        overscroll-behavior-inline: contain;
+    }
+
+    .Bebida {
+
+        display: flex;
+        align-items: center;
+        height: 250px;
+        width: 400px;
+        overflow-x: scroll;
+        overscroll-behavior-inline: contain;
+    }
+    .Doce {
+
+        display: flex;
+        align-items: center;
+        height: 250px;
+        width: 400px;
+        overflow-x: scroll;
+        overscroll-behavior-inline: contain;
+    }
+
+    /*---------- PRATOS/ BEBIDAS / DOCES --------------*/
+
   
     .frango   {
         border-radius: 9px;
@@ -143,21 +176,7 @@ body {
     
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+   
 .coquinha {
     border-radius: 9px;
     background-color: #FFFFFF;
@@ -205,58 +224,71 @@ body {
 
     }
 
+    .tortinha {
+        border-radius: 9px;
+        background-color: #FFFFFF;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        width: 172px;
+        height: 216px;
+        box-shadow: 0px 0px 10px -4px;
+        position: relative;
+    }
 
+    .mousse {
+        border-radius: 9px;
+        background-color: #FFFFFF;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        width: 172px;
+        height: 216px;
+        box-shadow: 0px 0px 10px -4px;
+        position: relative;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.conteinerfeed3 {
-    border-radius: 9px;
-    background-color: #FFFFFF;
-    margin-right: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
-    width: 172px;
-    height: 216px;
-    box-shadow: 0px 0px 10px -4px;
-    position: relative;
-}
+    .paveoupacume {
+        border-radius: 9px;
+        background-color: #FFFFFF;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        width: 172px;
+        height: 216px;
+        box-shadow: 0px 0px 10px -4px;
+        position: relative;
+    }
 
     .selecionado {
+        opacity: 1;
         box-shadow: inset 0 0 0 5px #32B72F, 0 0 10px -4px rgb(0, 0, 0, 0.25);
     } 
 
-
+    .check {
+        opacity: 1;
+    }
   
    .icon {
+        opacity: 0;
         position:absolute;
         color: #32B72F;
         margin-top: 180px;
         margin-left: 120px;
 
     }
-
+    .check {
+        opacity: 1;
+    }
   
     .ion-icon {
         font-size: 18px;
@@ -264,12 +296,12 @@ body {
     }
  
     
-    .feed div :first-child {
+    .foto {
         width: 144px;
         height: 87px;
         margin-bottom: 5px;
     }
-    .prato {
+    .titulo{
         color:#333333;
         font-weight: 700;
         font-size: 16px;
@@ -334,6 +366,7 @@ body {
     }
     
     .final-text p{
+        border-radius: 10px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -342,7 +375,13 @@ body {
         letter-spacing: 1.8%;
         color: #FFFFFF;
     }
-
+    .fecharPedido {
+        font-family: 'Roboto';
+        font-size: 28px;
+        color: #ffffff;
+        background-color: #32B72F;
+        font-weight: bold;
+      }
 
 }
 

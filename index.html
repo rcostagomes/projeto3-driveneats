@@ -29,54 +29,54 @@
           <h1>Primeiro, seu prato</h1>
         </div>
 
-        <div class="feed">
+        <div class="Prato">
           <div class="frango"  onclick="selecionarprato('frango')" >
             <div>
-              <img src="./img/frango.jpg" />
+              <img class="foto" src="./img/frango.jpg" />
             </div>
 
-            <div class="prato">Frango com salada</div>
+            <div class="titulo">Frango com salada</div>
 
             <div class="descricao">
               <a> Com uma porção de batata</a>
             </div>
 
             <div class="valor">
-              <a>R$:26,90</a>
+              R$:<a class="TT" >19,90</a>
             </div>
             <ion-icon class="icon" name="checkmark-circle-sharp"></ion-icon>
           </div>
 
          <div class="strogonoff"  onclick="selecionarprato('strogonoff')" >
             <div>
-              <img src="./img/strogonoff.jpg" alt="" />
+              <img class="foto"  src="./img/strogonoff.jpg" alt="" />
             </div>
 
-            <div class="prato">Strogonoff</div>
+            <div class="titulo">Strogonoff</div>
 
             <div class="descricao">
               <a> Um pouco de batata palha</a>
             </div>
 
             <div class="valor">
-              <a>R$:18,90</a>
+              R$:<a class="TT" >18,90</a>
             </div>
             <ion-icon class="icon" name="checkmark-circle-sharp"></ion-icon>
           </div>
 
          <div class="steak"  onclick="selecionarprato('steak')" >
             <div>
-              <img src="./img/steak house.jpg" alt="" />
+              <img class="foto"  src="./img/steak house.jpg" alt="" />
             </div>
 
-            <div class="prato">Steak House</div>
+            <div class="titulo">Steak House</div>
 
             <div class="descricao">
               <a> Um pouco de batata, um pouco de Molho</a>
             </div>
 
             <div class="valor">
-              <a>R$:21,90</a>
+              R$:<a class="TT" >21,90</a>
             </div>
             <ion-icon class="icon" name="checkmark-circle-sharp"></ion-icon>
           </div>
@@ -87,54 +87,54 @@
           <h1>Agora, sua bebida</h1>
         </div>
 
-        <div class="feed">
-         <div class="coquinha" onclick="selecionarprato('coquinha')" >
+        <div class="Bebida">
+         <div class="coquinha" onclick="selecionarbebida('coquinha')" >
             <div>
-              <img src="./img/coca.png" />
+              <img class="foto"  src="./img/coca.png" />
             </div>
 
-            <div class="prato">Coquinha Gelada</div>
+            <div class="titulo">Coquinha Gelada</div>
 
             <div class="descricao">
               <a> Lata 350ml</a>
             </div>
 
             <div class="valor">
-              <a>R$:4,90</a>
+              R$:<a class="TT" >4,90</a>
             </div>
             <ion-icon class="icon" name="checkmark-circle-sharp"></ion-icon>
           </div>
 
 
-         <div class="pepsi">
+         <div class="pepsi" onclick="selecionarbebida('pepsi')">
             <div>
-              <img src="./img/pepsi.jpg" />
+              <img class="foto"  src="./img/pepsi.jpg" />
             </div>
 
-            <div class="prato">Pepsi</div>
+            <div class="titulo">Pepsi</div>
 
             <div class="descricao">
               <a> Lata 350ml</a>
             </div>
 
             <div class="valor">
-              <a>R$:3,90</a>
+              R$:<a class="TT" >3,90</a>
             </div>
            <ion-icon class="icon" name="checkmark-circle-sharp"></ion-icon>
           </div>
-          <div class="guaranaA">
+          <div class="guaranaA" onclick="selecionarbebida('guaranaA')">
             <div>
-              <img src="./img/guarana.png" />
+              <img class="foto"  src="./img/guarana.png" />
             </div>
 
-            <div class="prato">Guanara Antartica</div>
+            <div class="titulo">Guanara Antartica</div>
 
             <div class="descricao">
               <a> Lata 350ml </a>
             </div>
 
             <div class="valor">
-              <a> <strong> R$:3,50 </strong> </a>
+              R$:<a class="TT" >3,50</a>
             </div>
             <ion-icon class="icon" name="checkmark-circle-sharp"></ion-icon>
           </div>
@@ -145,65 +145,65 @@
           <span> Por fim, sua sobremesa </span>
         </div>
 
-        <div class="feed">
-          <div class="conteinerfeed3">
+        <div class="Doce">
+          <div class="tortinha" onclick="selecionardoce('tortinha')" >
             <div>
-              <img src="./img/torta.jpg" />
+              <img class="foto"  src="./img/torta.jpg" />
             </div>
 
-            <div class="prato">Torta de Maracujá</div>
+            <div class="titulo">Torta de Maracujá</div>
 
             <div class="descricao">
               <a> Apenas a torta </a>
             </div>
 
             <div class="valor">
-              <a>R$:5,00</a>
+              R$:<a class="TT">5,00</a>
             </div>
             <ion-icon class="icon" name="checkmark-circle-sharp"></ion-icon>
           </div>
 
 
-            <div class="conteinerfeed3">
+            <div class="mousse" onclick="selecionardoce('mousse') ">
           
             <div>
-              <img src="./img/mousse.jpg" alt="" />
+              <img class="foto"  src="./img/mousse.jpg" alt="" />
             </div>
 
-            <div class="prato">Mousse Morango</div>
+            <div class="titulo">Mousse Morango</div>
 
             <div class="descricao">
               <a> Apenas o mousse </a>
             </div>
 
            <div class="valor">
-              <a>R$:3,90</a>
+              R$:<a class="TT">3,90</a>
             </div>
             <ion-icon class="icon" name="checkmark-circle-sharp"></ion-icon>
           </div>
 
 
-            <div class="conteinerfeed3">
+            <div class="paveoupacume"onclick="selecionardoce('paveoupacume') ">
             <div>
-              <img src="./img/pave.jpg" alt="" />
+              <img class="foto"  src="./img/pave.jpg" alt="" />
             </div>
 
-            <div class="prato">Pavê de Chocolate</div>
+            <div class="titulo">Pavê de Chocolate</div>
 
             <div class="descricao">
               <a> Apenas o Pavê</a>
             </div>
 
             <div class="valor">
-              <a>R$:5,90</a>
+              R$:<a>5,90</a>
             </div>
-            <ion-icon class="icon3" name="checkmark-circle-sharp"></ion-icon>
+            <ion-icon class="icon" name="checkmark-circle-sharp"></ion-icon>
           </div>
         </div>
       </div>
 
       <footer>
-        <div class="text-around">
+        <div  class="text-around" onclick="Whats()" >
           <div class="final-text">
             <p>Selecione os 3 itens para fechar o pedido</p>
           </div>
